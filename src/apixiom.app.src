@@ -1,0 +1,12 @@
+{application, apixiom,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+%  {mod, { apixiom_app, []}},
+  {env, []}
+ ]}.
